@@ -1,0 +1,615 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header  */
+
+.logo {
+    width: 85px;
+    height: 60px;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+ul li .text-light {
+    font-size: 17px;
+}
+
+ul li a:hover {
+    border-radius: 7px;
+    background-color: rgb(28, 28, 28);
+}
+
+/* Home 1 */
+
+#section-1 {
+    background-image: url('/image/bg-ground-7.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 89vh;
+}
+
+.sec1-div {
+    width: 100%;
+    height: 89vh;
+    background-color: rgba(0, 0, 0, 0.153);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1-content {
+    height: auto;
+    width: 640px;
+    text-align: center;
+    padding: 12px;
+    margin-top: -20px;
+}
+
+.sec1-content h1 {
+    color: white;
+    font-size: 44px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.sec1-content h2 {
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 33px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin: 17px 0px;
+}
+
+.btn-register {
+    padding: 11px;
+    font-size: 19px;
+    border: 1px solid white;
+    border-radius: 12px;
+    color: white;
+    background-color: transparent;
+
+}
+
+.btn-register:hover {
+    background-color: rgba(128, 128, 128, 0.399);
+    color: rgba(255, 255, 255, 0.727);
+}
+
+/* Offcanvas  */
+
+.form-img {
+    background-image: url('./image/form-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    height: 150px;
+}
+
+.offcanvas div h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.offcanvas div .btn-close {
+    color: white;
+    background-color: white;
+}
+
+.offcanvas input {
+    padding: 7px;
+    width: 90%;
+    border: none;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.offcanvas input:focus {
+    outline: none;
+    color: white;
+}
+
+input:hover {
+    background-color: rgba(128, 128, 128, 0.412);
+}
+
+#btn-submit {
+    padding: 7px 12px;
+    font-size: 19px;
+    color: white;
+    background-color: grey;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin: 35px 9px;
+    width: 150px;
+    margin-left: -3px;
+}
+
+#btn-reset {
+    padding: 7px 12px;
+    font-size: 19px;
+    color: white;
+    background-color: grey;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 150px;
+}
+
+#btn-submit:hover {
+    background-color: rgba(128, 128, 128, 0.49);
+}
+
+#btn-reset:hover {
+    background-color: rgba(128, 128, 128, 0.49);
+}
+
+/* Section 2 in Home*/
+
+.slider-sec {
+    background-color: rgba(128, 128, 128, 0.722);
+}
+
+#section-2 {
+    width: 94%;
+    margin: 55px auto;
+    height: auto;
+    background-color: rgba(210, 206, 206, 0.758);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 70px 20px;
+    border-radius: 7px;
+}
+
+.sec2-content h1 {
+    font-size: 47px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+
+.sec2-content p {
+    font-size: 19px;
+}
+
+.sec2-content ol {
+    margin: 6px 0px;
+}
+
+.sec2-content ol li {
+    font-size: 19px;
+    margin: 5px 0px;
+}
+
+.btn-about {
+    font-size: 25px;
+    padding: 6px 18px;
+    color: rgba(255, 255, 255, 0.769);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(128, 128, 128, 0.596);
+    border: 1px solid white;
+}
+
+.btn-about:hover {
+    color: rgba(255, 255, 255, 0.71);
+    background-color: rgba(0, 0, 0, 0.681);
+    transition: all linear .2s;
+    transform: scale(1.1);
+    border: 2px solid white;
+}
+
+/* Section 3 in Home  */
+
+.sec-3 h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 550;
+    margin: -30px 0px 27px 1px;
+}
+
+.card-main {
+    background-color: rgba(128, 128, 128, 0.722);
+    padding: 40px 0px;
+}
+
+.card-main h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card-div {
+    margin: 0px auto;
+    width: 80%;
+}
+
+.card {
+    width: 270px;
+    height: 370px;
+    background-color: rgb(107, 106, 106);
+    color: white;
+}
+
+.card-img-1 {
+    width: 100%;
+    height: 180px;
+}
+
+.card h3 {
+    font-family: cursive;
+    margin: 7px 0px;
+}
+
+.card:hover {
+    transition: all ease-in-out .3s;
+    transform: translateY(-3px);
+}
+
+/* Record Section  */
+
+.r-desc {
+    background-color: rgba(141, 136, 136, 0.902);
+    text-align: justify;
+}
+
+.r-desc h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 550;
+    color: rgb(255, 255, 255);
+}
+
+.r-desc p {
+    font-size: 17px;
+    color: white;
+}
+
+.accordion-button {
+    font-size: 21px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.accordion-button:hover {
+    color: black;
+    background-color: transparent;
+}
+
+.accordion-collapse h1 {
+    font-family: 'Courier New', Courier, monospace;
+    /* font-size: 39px; */
+    font-weight: bold;
+}
+
+/* Detail Section  */
+
+.info {
+    background-color: white;
+}
+
+.info h2 {
+    font-size: 37px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.bat-info {
+    background-color: rgba(128, 128, 128, 0.712);
+    border-radius: 6px;
+    margin-top: 3rem;
+}
+
+.bat-img {
+    background-image: url('/image/cricket-bat.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 310px;
+    animation: animate-bat 17s ease-in-out .3s infinite;
+    border-radius: 12px;
+}
+
+@keyframes animate-bat {
+    23% {
+        background-image: url('/image/cricket-bat-2.jpg');
+    }
+
+    43% {
+        background-image: url('/image/cricket-bat-3.jpg');
+    }
+
+    65% {
+        background-image: url('/image/cricket-bat-5.jpg');
+    }
+
+    77% {
+        background-image: url('/image/cricket-bat-4.jpg');
+    }
+
+    93% {
+        background-image: url('/image/cricket-bat-3.jpg');
+    }
+}
+
+
+.ball-info {
+    background-color: rgba(128, 128, 128, 0.712);
+    border-radius: 6px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.ball-img {
+    background-image: url('/image/cricket-ball.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 310px;
+    animation: animate-ball 12s ease-in-out .3s infinite;
+    border-radius: 12px;
+}
+
+@keyframes animate-ball {
+    27% {
+        background-image: url('/image/cricket-ball-2.jpg');
+    }
+
+    49% {
+        background-image: url('/image/cricket-ball-3.jpg');
+    }
+
+    75% {
+        background-image: url('/image/cricket-ball-4.jpg');
+    }
+
+    92% {
+        background-image: url('/image/cricket-ball-3.jpg');
+    }
+}
+
+.all-info {
+    margin-bottom: 20px;
+}
+
+.all-info h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 550;
+}
+
+.all-info strong {
+    font-size: 19px;
+    margin: 4px 0px;
+}
+
+.all-info p {
+    font-size: 17px;
+    margin: 7px 0px;
+    text-align: justify;
+}
+
+.register-img img {
+    width: 100%;
+    height: 270px;
+}
+
+.practice-session img {
+    width: 100%;
+    height: 300px;
+    margin: 16px 0px;
+}
+
+.spons-div {
+    background-color: rgb(77, 75, 75);
+    color: #f2f2f2dd;
+}
+
+.spons-img img {
+    width: 100%;
+    opacity: .5;
+}
+
+/* End of Detail Section  */
+
+/* Updates Component  */
+
+#section-news {
+    background-color: rgb(164, 161, 161);
+    color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card-title {
+    color: rgba(240, 248, 255, 0.724);
+    font-size: 23px;
+}
+
+.card-text {
+    color: #000000;
+    font-size: 17px;
+}
+
+.read-btn {
+    border: none;
+}
+
+.card-data {
+    background-color: rgba(93, 91, 91, 0.294);
+    color: rgba(255, 255, 255, 0.928);
+}
+
+.card-data:hover {
+    transition: all .2s ease-in-out;
+    transform: translateY(-4px);
+}
+
+/* Contact Section  */
+
+.contact h1 {
+    font-size: 57px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.802);
+    margin: 30px 0px;
+}
+
+.contact span {
+    border-bottom: 8px solid rgba(28, 41, 137, 0.802);
+}
+
+.contact p {
+    font-size: s 27px;
+    margin: 18px 0px;
+}
+
+.contact button {
+    width: 150px;
+    padding: 8px;
+    font-size: 23px;
+    border-radius: 19px;
+    font-weight: bold;
+    margin: 8% 2%;
+    background-color: rgb(111, 110, 110);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid black;
+}
+
+.contact .call {
+    width: 270px;
+    background-color: rgba(43, 58, 167, 0.802);
+}
+.contact .call:hover{
+    background-color: rgba(111, 121, 194, 0.802);
+}
+
+.contact button:hover {
+    background-color: rgb(155, 153, 153);
+    color: rgba(255, 255, 255, 0.905);
+}
+.call-img {
+    background-color: rgb(111, 110, 110);
+    transform: skew(20deg);
+    border-radius: 50%;
+    transition: all linear .6s;
+
+}
+
+.call-img:hover {
+    transition: all linear .6s;
+    transform: translateY(10px);
+}
+
+.e-mail {
+    width: 50%;
+    background-color: rgb(246, 246, 246);
+    margin: 5px auto 30px auto;
+}
+
+.e-mail h1 {
+    font-size: 54px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+
+.e-mail label {
+    font-size: 21px;
+    margin: 0px 19px;
+}
+
+.name-email input {
+    padding: 13px;
+    margin: 5px 19px;
+    width: 320px;
+    background-color: rgb(235, 234, 234);
+    border: none;
+    font-size: 17px;
+}
+
+.name-email input:focus {
+    outline: none;
+}
+
+.e-mail textarea {
+    background-color: rgb(235, 234, 234);
+    width: 93%;
+    margin: 0px 17px;
+    padding: 12px;
+    font-size: 17px;
+    border: none;
+}
+
+.e-mail textarea:focus {
+    outline: none;
+}
+
+.email-submit {
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 17px;
+    width: 93%;
+    background-image: linear-gradient(to right, #a3a8a8, #5990d7);
+    color: white;
+    font-size: 26px;
+}
+
+.email-submit:hover {
+    background-image: linear-gradient(to right, #acb8b8, #769ac8);
+}
+
+/* Footer Section  */
+
+footer {
+    height: auto;
+    padding: 20px 0px 50px 0px;
+    background-color: rgb(27, 31, 41);
+    color: rgba(255, 255, 255, 0.859);
+}
+
+.foot h3 {
+    padding-top: 39px;
+    padding-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.foot .searchbox {
+    width: 270px;
+    padding: 9px 0px;
+    margin-bottom: 9px;
+    border: none;
+    border-radius: 7px;
+}
+
+.foot .subscribebtn {
+    padding: 8px 13px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.864);
+}
+
+
+.falinkdin{
+    font-size: 34px;
+    color: white;
+    margin-top: 30px;
+}
+#foot-2 {
+    text-align: center;
+}
+
+#foot-3 {
+    text-align: center;
+}
+
+.foot h6 a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot h6 a:hover {
+    color: rgba(255, 255, 255, 0.744);
+}
