@@ -62,7 +62,7 @@ export class News extends Component {
       <>
       <section id='section-news' className=' d-flex'>
         <div className="container">
-          <h1 className='mx-4 my-4'>Read & See The Latest Sports News</h1>
+          <h2 className='mx-4 my-4'>Read & See The Latest Sports News</h2>
           <div className="row my-2">
             {this.state.articles.map((element) => {
               return <div className="col-md-4 my-3" key={element.url}>

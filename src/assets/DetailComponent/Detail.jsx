@@ -6,7 +6,7 @@ export const Detail = () => {
             <div className="container-fluid p-2 px-5 info">
                 <div className="row p-5 bat-info">
                     <div className="col-lg-7 ">
-                        <h2>Something about for Bat</h2>
+                        <h2>Learn about Bat</h2>
                         <ul className='my-4'>
                             <li className='my-2'>Material: Premium grade willow for superior strength and responsiveness.</li>
                             <li className='my-2'>Profile: Balanced design enhances control and powerful strokes.</li>
@@ -207,7 +207,7 @@ export const Detail = () => {
                     <div className="col-md-4 other-img-3"></div>
                 </div>
             </div> */}
-            <div className="container-fluid">
+            <div className="container-fluid" id='all-info'>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-8 all-info">

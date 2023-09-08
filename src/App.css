@@ -153,14 +153,14 @@ input:hover {
 /* Section 2 in Home*/
 
 .slider-sec {
-    background-color: rgba(128, 128, 128, 0.722);
+    background-color: #f4f4f4;
 }
 
 #section-2 {
     width: 94%;
     margin: 55px auto;
     height: auto;
-    background-color: rgba(210, 206, 206, 0.758);
+    background-color: rgba(231, 225, 225, 0.758);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -173,6 +173,7 @@ input:hover {
     font-size: 47px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
+    color: #333333;
 }
 
 .sec2-content p {
@@ -211,15 +212,12 @@ input:hover {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 550;
     margin: -30px 0px 27px 1px;
+    color: #333333;
 }
 
 .card-main {
-    background-color: rgba(128, 128, 128, 0.722);
+    background-color: #f4f4f4;
     padding: 40px 0px;
-}
-
-.card-main h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .card-div {
@@ -230,7 +228,7 @@ input:hover {
 .card {
     width: 270px;
     height: 370px;
-    background-color: rgb(107, 106, 106);
+    background-color: rgb(165, 159, 159);
     color: white;
 }
 
@@ -240,8 +238,12 @@ input:hover {
 }
 
 .card h3 {
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
     margin: 7px 0px;
+}
+.card p{
+    color: #000000;
 }
 
 .card:hover {
@@ -252,24 +254,27 @@ input:hover {
 /* Record Section  */
 
 .r-desc {
-    background-color: rgba(141, 136, 136, 0.902);
+    background-color: #f4f4f4;
     text-align: justify;
 }
 
 .r-desc h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 550;
-    color: rgb(255, 255, 255);
+    color: #333333;
 }
 
 .r-desc p {
     font-size: 17px;
-    color: white;
+    color: #000000;
+}
+.accordion-main{
+    background-color: #f4f4f4;
 }
 
 .accordion-button {
     font-size: 21px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
 }
 
@@ -287,17 +292,18 @@ input:hover {
 /* Detail Section  */
 
 .info {
-    background-color: white;
+    background-color: #f4f4f4;
 }
 
 .info h2 {
     font-size: 37px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 600;
+    color: #333333;
 }
 
 .bat-info {
-    background-color: rgba(128, 128, 128, 0.712);
+    background-color: rgba(228, 215, 215, 0.712);
     border-radius: 6px;
     margin-top: 3rem;
 }
@@ -336,7 +342,7 @@ input:hover {
 
 
 .ball-info {
-    background-color: rgba(128, 128, 128, 0.712);
+    background-color: rgba(228, 215, 215, 0.712);
     border-radius: 6px;
     margin-top: 1rem;
     margin-bottom: 3rem;
@@ -369,14 +375,17 @@ input:hover {
         background-image: url('/image/cricket-ball-3.jpg');
     }
 }
-
+#all-info{
+    background-color: #f4f4f4;
+}
 .all-info {
     margin-bottom: 20px;
 }
 
 .all-info h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 550;
+    font-weight: 600;
+    /* color: #333333; */
 }
 
 .all-info strong {
@@ -408,7 +417,7 @@ input:hover {
 
 .spons-img img {
     width: 100%;
-    opacity: .5;
+    opacity: .6;
 }
 
 /* End of Detail Section  */
@@ -416,13 +425,16 @@ input:hover {
 /* Updates Component  */
 
 #section-news {
-    background-color: rgb(164, 161, 161);
-    color: #000000;
+    background-color: #f4f4f4;
+}
+#section-news h2{
+    color: #333333;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
 }
 
 .card-title {
-    color: rgba(240, 248, 255, 0.724);
+    color: #333333;
     font-size: 23px;
 }
 
@@ -446,6 +458,10 @@ input:hover {
 }
 
 /* Contact Section  */
+
+.contact-main{
+    background-color: #f4f4f4;
+}
 
 .contact h1 {
     font-size: 57px;
@@ -501,28 +517,28 @@ input:hover {
     transition: all linear .6s;
     transform: translateY(10px);
 }
-
 .e-mail {
     width: 50%;
-    background-color: rgb(246, 246, 246);
-    margin: 5px auto 30px auto;
+    background-color: rgba(228, 215, 215, 0.712);
+    margin: 50px auto 0px auto;
 }
 
 .e-mail h1 {
     font-size: 54px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
+    color: #333333;
 }
 
 .e-mail label {
-    font-size: 21px;
+    font-size: 18px;
     margin: 0px 19px;
 }
 
 .name-email input {
     padding: 13px;
     margin: 5px 19px;
-    width: 320px;
+    width: 265px;
     background-color: rgb(235, 234, 234);
     border: none;
     font-size: 17px;
@@ -581,6 +597,8 @@ footer {
     margin-bottom: 9px;
     border: none;
     border-radius: 7px;
+    /* background-color: #5990d7;
+    color: white; */
 }
 
 .foot .subscribebtn {
@@ -588,7 +606,8 @@ footer {
     background-color: transparent;
     border: 1px solid white;
     border-radius: 20px;
-    color: rgba(255, 255, 255, 0.864);
+    /* background-color: #5990d7; */
+    color: white; 
 }
 
 
@@ -596,6 +615,9 @@ footer {
     font-size: 34px;
     color: white;
     margin-top: 30px;
+}
+.falinkdin:hover{
+    color: #2f71c7;
 }
 #foot-2 {
     text-align: center;
